@@ -1,0 +1,146 @@
+@font-face {
+  font-family: MyriadPro Cond;
+  src: url("../fonts/Myriad_Pro_Condensed.ttf") format('truetype'); 
+}
+
+@font-face {
+  font-family: MyriadPro Bold Cond;
+  src: url('../fonts/Myriad_Pro_Bold_Condensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: MyriadPro Regular;
+  src: url('../fonts/Myriad_Pro_Regular.ttf') format('truetype');
+}
+
+.container-search {
+	/*height: 50px;*/
+	/*margin: 10px 10px 10px 10px;*/
+}
+
+.home-group {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.home-logo {
+	margin: 0px 10px 10px 10px;
+	height: 25px;
+	float: left;
+}
+
+.home-text {
+	margin-top: 2px;
+	margin-bottom: 12px;
+	color: #979797;
+	max-width:50%;
+}
+
+.home-glypicons {
+	margin: 5px 20px 20px 5px;
+	color: #979797;
+}
+
+.home-glypicons:hover {
+	color: #515151;
+}
+
+.search-container {
+	border-radius: 10px; 
+	height: 30px; 
+	border: none;
+}
+
+.search-container::placeholder{
+	color: #979797;
+}
+
+.head-label-title {
+	font-family: MyriadPro Bold Cond; 
+	color: #277595; 
+	font-size:30px; 
+	margin: 20px 0px 5px -18px;
+}
+
+.head-label-subtitle {
+	font-family: MyriadPro Cond; 
+	color: #277595; 
+	font-size:20px; margin: 0px 0px 10px -18px;
+}
+
+.label-title {
+	font-family: MyriadPro Bold Cond; 
+	color: #3a3a3a; 
+	font-size:25px;
+	margin: 20px 0px 5px -18px;
+}
+
+.label-subtitle{
+	font-family: MyriadPro Cond;
+	color: #3a3a3a; 
+	font-size:25px;
+	margin: 0px 0px 10px -18px;
+}
+
+.carousel-blue {
+	bottom:-5%;
+}
+
+.carousel-indicators li {
+	border: none;
+	background-color: #69bee1;
+	margin: 10px 10px 10px 10px;
+	width: 15px;
+	height: 15px ;
+}
+
+
+
+.carousel-indicators .active {
+	background-color: #FFFFFF;
+	margin: 10px 10px 7px 10px;
+	width: 20px;
+	height: 20px ;
+	border: 3px solid #69bee1;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #f3ea08;
+	border-bottom: 5px solid #f3ea08;
+	line-height: 6px;
+	bottom:-7px;
+}
+
+.lead {
+	font-family: MyriadPro Regular;
+	font-size:23px;
+	color: #000000;
+}
+
+
+
+/*@media (max-width: 1600px) {
+	.glyph-responsive {
+		margin:5px 15px 15px 5px;
+		font-size:20px;
+	}
+	.search-container {
+		width:50%;
+	}
+}
+*/
+/*@media (max-width: 1300px) {
+	.glyph-responsive {
+		margin:5px 10px 10px 5px;
+		font-size:12px;
+	}
+	.search-container {
+		width:50%;
+		height:50%;
+	}
+}*/
+
+
+
