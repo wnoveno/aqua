@@ -143,13 +143,49 @@
 }*/
 
 
-a.mailer_link:hover{
+a.mailer_link:hover {
 	color:blue;
 }
 
 
-a.mailer_link:focus{
+a.mailer_link:focus {
 	color:darkblue;
 }
 
 
+a.page_link:hover {
+	color:blue;
+}
+
+a.page_link:focus {
+	color:darkblue;
+}
+
+a.page_link {
+	color: #277595;
+}
+
+
+a.inquire_link:hover {
+	color:#FFFF33;
+}
+
+a.inquire_link:focus {
+	color: yellow;
+}
+
+a.inquire_link {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #F3EA08;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+    padding: 8px 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
