@@ -143,8 +143,13 @@
 }*/
 
 
- a.mailer_link:hover{
+a.mailer_link:hover{
 	color:blue;
+}
+
+
+a.mailer_link:focus{
+	color:darkblue;
 }
 
 
