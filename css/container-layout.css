@@ -109,8 +109,8 @@
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	color: #f3ea08;
 	border-bottom: 5px solid #f3ea08;
-	line-height: 6px;
-	bottom:-7px;
+	line-height: 25px;
+	bottom:-3px;
 }
 
 .lead {
@@ -188,6 +188,7 @@ a.inquire_link {
     padding: 8px 17px;
     text-transform: uppercase;
     font-weight: bold;
+    line-height: 32px;
 }
 
 .featurette {
@@ -244,4 +245,26 @@ a.inquire_link {
     background-size: cover;
     height:100%;
     width:100%;
+}
+
+.vert-text {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	color: #277595;
+	font-size:270%
+}
+
+
+@media (max-width: 1100px) {
+	.vert-text {
+		font-size:220%
+	}
+}
+
+@media (max-width: 960px) {
+	.vert-text {
+		writing-mode: horizontal-tb;
+		text-orientation: sideways;
+		font-size:700%
+	}
 }
