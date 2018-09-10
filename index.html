@@ -39,7 +39,7 @@
         <div class="container-search">
             
             <div class="row home-group">
-                <div class="col-md-6">
+                <div class="col-md-6 col-xs-12 col-sm-12">
                     <table align="center">
                         <tr>
                             <td>
@@ -53,9 +53,9 @@
                     <!-- <label class="home-text">Head Office is located at #57 Corumi St., Masambong, Quezon City</label> -->
                 </div>
                 <div class="col-md-5 col-md-offset-1" align="center">
-                    <a href="http://www.facebook.com"><i class="fa fa-facebook fa-lg home-glypicons glyph-responsive"></i></a>
-                    <a href="http://www.facebook.com"><i class="fa fa-twitter fa-lg home-glypicons glyph-responsive"></i></a>
-                    <a href="http://www.facebook.com"><i class="fa fa-skype fa-lg home-glypicons glyph-responsive"></i></a>
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook fa-lg home-glypicons glyph-responsive"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa fa-twitter fa-lg home-glypicons glyph-responsive"></i></a>
+                    <a href="https://www.skype.com"><i class="fa fa-skype fa-lg home-glypicons glyph-responsive"></i></a>
                     <input type="text" placeholder="  Search.." class="search-container">
                 </div>
             </div>
@@ -63,7 +63,7 @@
     </aside>
 
     <!-- Header -->
-    <aside class="" style="background-image: url('img/Header_backdrop_2.jpg'); background-size: auto; background-repeat: no-repeat; background-size: 100%; background-position: center;">
+    <aside id="header_container">
             <div class="row">
                 <div class="col-lg-12">
 
@@ -75,7 +75,7 @@
 
                     <div class="col-md-3">
                         <table align="center">
-                            <tr>
+                           <!--  <tr>
                                 <td>
                                     <img class="featurette-image img-responsive center-block" src="img/phone_img.png" height="300px" style="margin-top:10px; margin-bottom:10px; margin-right:15px">
                                     
@@ -83,7 +83,7 @@
                                 <td>
                                     <label style="font-family:MyriadPro Regular; font-size:15px; color:#000000">416-0251/448-6500/367-1625</label>
                                 </td>
-                            </tr>
+                            </tr> -->
                             <tr>
                                 <td>
                                     <img class="featurette-image img-responsive center-block" src="img/mail_img.png" height="300px" style="margin-top:10px; margin-bottom:10px; margin-right:15px">
@@ -98,7 +98,7 @@
                         </table>
                     </div>
 
-                    <div class="col-md-2" style="margin-left:-3%; margin-top:25px">
+                    <div class="col-md-2" style="margin-left:-3%; margin-top:5px">
                         <button style="background-color: #277595;
     border: none;
     color: white;
@@ -107,7 +107,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px; border-radius:40px"><label style="font-family: MyriadPro Regular;"><a href="javascript:void(0)" class="inquire_link">Inquire Now</a></label></button>
+    margin: 4px 2px; border-radius:40px"><label style="font-family: MyriadPro Regular;"><a href="/encaps/admin" class="inquire_link">Login</a></label></button>
                     </div>
 
                 </div>
@@ -115,13 +115,13 @@
     </aside>
     
     <!-- NAVBAR -->
-    <nav class="navbar navbar-default" style="background-color:#69bee1; height:30px; min-height: 40px">
-        <div class="container-fluid" style="padding: 0px 350px 0px 350px;">
+    <nav class="navbar navbar-default" style="background-color:#69bee1; min-height: 40px">
+        <div class="container-fluid col-md-8 col-sm-12 col-md-offset-4">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/about.php">About Us</a></li>
+                <li><a href="/encaps/index.php">Products</a></li>
+                <li><a href="/contact.php">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -129,19 +129,19 @@
     <!-- NEWS FEATURETTE -->
 
     <section id="feature_news_section" class="feature_news_section">
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid">
+            <div class=" featurette row row-eq-height">
 
                 <!-- FEATURRETTE #1 -->
-                <div class="col-md-5">
-                    <div class="feature_article_wrapper" style="border-radius: 25px; box-shadow: 0 0 20px #cecece;background-color:  #f6f6f6;">
+                <div class="col-md-5 col-sm-12   ">
+                    <div class="feature_article_wrapper" >
                         <div class="feature_article_img" style="padding: 20px">
 
-                            <div class="row">
-                                <div class="col-md-4">
+                            <!-- <div class="row"> -->
+                                <div class="col-md-4 col-sm-12">
                                     <img class="img-responsive top_static_article_img" style="float:left" src="img/Vulca_img.jpg" alt="feature-top">
                                 </div>
-                                <div class="col-md-8" style="padding-right:0px">
+                                <div class="col-md-8 col-sm-12">
                                     <label class="head-label-title"><b>ELECTRONIC ANTI-SCALANT</b></label>
                                     <br>
                                     <label class="head-label-subtitle">AGAINST SCALE AND RUST</label>
@@ -161,12 +161,12 @@
                                     <br>
                                     <label class="label-subtitle"><b>perforation</b></label>
 
-                                    <label style="font-family: MyriadPro Bold Cond; color: #277595; font-size:18px;margin: 50px 15px 10px 20px; float:right"><a href="javascript:void(0)" class="page_link"><b><u>LEARN MORE</u> > </b></a></label>
+                                    <label style="font-family: MyriadPro Bold Cond; color: #277595; font-size:18px;margin: 50px 15px 10px 20px; float:right"><a href="/encaps/index.php?categ_id=9" class="page_link"><b><u>LEARN MORE</u> > </b></a></label>
                                 </div>
-                            </div>
+                            <!-- </div> -->
                             <div class="row">
-                                <div class="col-md-12">
-                                    <iframe class="embed-responsive-item" width="420" height="315" src="https://www.youtube.com/embed/n8AMOLXFCWc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <div class="col-md-12 col-sm-12">
+                                    <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/n8AMOLXFCWc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -174,8 +174,8 @@
                 </div>
 
                 <!-- FEATURRETTE #2 -->
-                <div class="col-md-4">
-                    <div class="feature_article_wrapper" style="border-radius: 25px; box-shadow: 0 0 20px #cecece;background-color:#f6f6f6;">
+                <div class=" col-md-4 col-sm-12 ">
+                    <div class="feature_article_wrapper">
                         <div class="feature_article_img" style="padding: 20px">
                             <div class="row">
                                 <div class="col-md-12">
@@ -190,18 +190,18 @@
                                     <label style="font-family: MyriadPro Cond; font-size:30px; margin-bottom:70px; padding-top:40px; line-height:100%; color: #3a3a3a; display:inline-block;">Reverse osmosis systems are to purify water and remove salts and other impurities from tap and brackish water.</label>
                                 </div>
                                 <div class="col-md-12">
-                                    <label style="font-family: MyriadPro Bold Cond; color: #277595; font-size:18px;margin: 50px 15px 10px 20px; float:right"><a href="javascript:void(0)" class="page_link"><b><u>LEARN MORE</u> > </b></a></label>
+                                    <label style="font-family: MyriadPro Bold Cond; color: #277595; font-size:18px;margin: 50px 15px 10px 20px; float:right"><a href="/encaps/index.php?categ_id=2" class="page_link"><b><u>LEARN MORE</u> > </b></a></label>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
+                <div class="col-md-3  ">
+                <div class="">
                 <!-- FEATURETTE #3 -->
-                <div class="col-md-3">
-                    <div class="feature_article_wrapper" style="border-radius: 25px; box-shadow: 0 0 20px #cecece;background-color:#f6f6f6;">
-                        <div class="feature_article_img" style="padding: 20px">
+                <div class="col-sm-12 feature_article_wrapper">
+                    <div class="" >
+                        <div class="feature_article_img">
                             <div class="row">
                                 <div class="col-md-12">
                                     <label class="head-label-title" style="padding-left:20px"><b>WATER FILTRATION</b></label>
@@ -232,7 +232,7 @@
 
                             <div class="row">
                                 <div class="col-md-12">
-                                    <label style="font-family: MyriadPro Bold Cond; color: #277595; font-size:18px;margin: 5px 5px 10px 20px; float:right"><a href="javascript:void(0)" class="page_link"><b><u>LEARN MORE</u> > </b></a></label>
+                                    <label style="font-family: MyriadPro Bold Cond; color: #277595; font-size:18px;margin: 5px 5px 10px 20px; float:right"><a href="/encaps/index.php?categ_id=2" class="page_link"><b><u>LEARN MORE</u> > </b></a></label>
                                 </div>
                             </div>
 
@@ -241,9 +241,9 @@
                 </div>
 
                 <!-- FEATURETTE #4 -->
-                <div class="col-md-3">
-                    <div class="feature_article_wrapper" style="border-radius: 25px; box-shadow: 0 0 20px #cecece;background-color:#f6f6f6;">
-                        <div class="feature_article_img" style="padding: 20px">
+                <div class="col-sm-12 feature_article_wrapper" style="margin-top: 20px;">
+                    <div class="" >
+                        <div class="feature_article_img" >
                             <div class="row">
                                 <div class="col-md-12" style="padding-right:0px">
                                     <label class="head-label-title" style="padding-left:20px;"><b>WATER DISINFECTION</b></label>
@@ -258,7 +258,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <label style="font-family: MyriadPro Bold Cond; color: #277595; font-size:18px;margin: 10px 5px 10px 20px; float:right"><a href="javascipt:void(0)" class="page_link"><b><u>LEARN MORE</u> > </b></a></label>
+                                    <label style="font-family: MyriadPro Bold Cond; color: #277595; font-size:18px;margin: 10px 5px 10px 20px; float:right"><a href="/encaps/index.php?categ_id=2" class="page_link"><b><u>LEARN MORE</u> > </b></a></label>
                                 </div>
                             </div>
                         </div>
@@ -268,12 +268,14 @@
                 </div>
             </div>
         </div>
+            </div>
+        </div>
     </section>
 
     <!-- Other Products -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12"  style="text-align:center">
+            <div class="col-md-12 col-sm-12"  style="text-align:center">
                 <label style="color:#277595; font-size:40px; font-family: MyriadPro Bold Cond; padding-top:50px">OTHER PRODUCTS</label>
                 <hr style="border-color:#277595; border-width:3px"/>
             </div>
@@ -300,7 +302,7 @@
                                 <label style="color:#277595; font-family:MyriadPro Bold Cond; font-size:57px;">FILTER HOUSINGS</label>
                                 <br>
                                 <br>
-                                <label style="color:#000000; font-family:MyriadPro Cond; font-size:35px;">Lorem Ipsum Dolor dolor amet. Ipsum Lorem</label>
+                                <!-- <label style="color:#000000; font-family:MyriadPro Cond; font-size:35px;">Lorem Ipsum Dolor dolor amet. Ipsum Lorem</label> -->
                                 <br>
                                 <br>
                                 <br>
@@ -320,7 +322,7 @@
                                 <label style="color:#277595; font-family:MyriadPro Bold Cond; font-size:57px;">FILTER HOUSINGS</label>
                                 <br>
                                 <br>
-                                <label style="color:#000000; font-family:MyriadPro Cond; font-size:35px;">Lorem Ipsum Dolor dolor amet. Ipsum Lorem</label>
+                                <!-- <label style="color:#000000; font-family:MyriadPro Cond; font-size:35px;">Lorem Ipsum Dolor dolor amet. Ipsum Lorem</label> -->
                                 <br>
                                 <br>
                                 <br>
@@ -341,7 +343,7 @@
                                 <label style="color:#277595; font-family:MyriadPro Bold Cond; font-size:57px;">FILTER HOUSINGS</label>
                                 <br>
                                 <br>
-                                <label style="color:#000000; font-family:MyriadPro Cond; font-size:35px;">Lorem Ipsum Dolor dolor amet. Ipsum Lorem</label>
+                                <!-- <label style="color:#000000; font-family:MyriadPro Cond; font-size:35px;">Lorem Ipsum Dolor dolor amet. Ipsum Lorem</label> -->
                                 <br>
                                 <br>
                                 <br>
@@ -371,7 +373,7 @@
 
     <!-- ABOUT US -->
     <section id="about" class="about">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row featurette">
 
                 <div class="col-md-1">
@@ -408,43 +410,42 @@ We presently supply, install and service water purification and treatment in res
    
 
     <!-- Footer -->
-    <footer style="padding:20px 60px 20px 60px; background-image: url('img/Footer_backdrop.jpg'); background-size: auto; background-repeat: no-repeat; background-size: 100%; background-position: center;">
+    <footer id="footer" style="">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4" style="padding-top:50px">
+                <div class="col-md-4 col-sm-12" style="padding-top:50px">
                         <img class="featurette-image img-responsive center-block" src="img/AquaHome_logo.png" height="300px">
                 </div>
-                <div class="col-md-4">
-                    <div class="col-md-6 col-md-offset-2">
+                <div class="col-md-4 col-sm-12">
+                    <div class="col-md-8 col-md-offset-2">
                         <label style="font-family:MyriadPro Bold Cond; font-size:20px; color:#000000">
                             <b>SERVICES</b>
                             <br>
                         </label>
                         <label style="font-family:MyriadPro Regular; font-size:17px; color:#000000">
-                            Vulcan: Anti Scale and Rust System
-                            <br>
-                            Commercial and Industrial Systems
-                            <br>
-                            Residential Water Products and Services
-                            <br>
-                            Bottling Machines/Equipments
-                            <br>
-                            Ice Making Machines 
-                            <br>
-                            Laundry Package
+                            <ul>
+                                <li><a href="/encaps/index.php?categ_id=9">Vulcan: Anti Scale and Rust System</a></li>
+                                <li><a href="/encaps/index.php?categ_id=2">Commercial and Industrial Systems</a></li>
+                                <li><a href="/encaps/index.php?categ_id=3">Residential Water Products and Services</a></li>
+                                <li><a href="/encaps/index.php?categ_id=1">Bottling Machines/Equipments</a></li>
+                                <li><a href="/encaps/index.php?categ_id=6">Ice Making Machines</a></li>
+                                <li><a href="/encaps/index.php?categ_id=7">Laundry Package</a></li>
+                            </ul>
                         </label>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="col-md-8 col-md-offset-1" style="padding-top:7%">
+                <div class="col-md-4 col-sm-12">
+                    <div class="col-md-9 col-md-offset-1" >
+                        <label style="font-family:MyriadPro Bold Cond; font-size:20px; color:#000000">
+                            <b>CONTACT</b>
+                            <br>
+                        </label>
                         <label style="font-family:MyriadPro Regular; font-size:17px; color:#000000">
-                            Contact Numbers: 416-0251 / 448-6500 / 367-1625
-                            <br>
-                            Email: sales@aquaaddonsystems.com
-                            <br>
-                            Head Office is located at #57 Corumi St., 
-                            <br>
-                            Masambong, Quezon City
+                            <ul>
+                                <li>Email: sales@aquaaddonsystems.com</li>
+                                <li>Head Office is located at #57 Corumi St., </li>
+                                <li>Masambong, Quezon City</li>
+                            </ul>
                         </label>
                     </div>
                 </div>

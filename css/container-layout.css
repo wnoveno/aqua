@@ -21,8 +21,8 @@
 .home-group {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 200px;
-	padding-right: 200px;
+	/*padding-left: 200px;*/
+	/*padding-right: 200px;*/
 }
 
 .home-logo {
@@ -188,4 +188,60 @@ a.inquire_link {
     padding: 8px 17px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.featurette {
+	/*height: 1000px;*/
+/*	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;*/
+	/*align-items: stretch;*/
+}
+.feature_article_wrapper {
+	border-radius: 25px;
+	box-shadow: 0 0 20px #cecece;
+	background-color:#f6f6f6;
+}
+
+.row-eq-height {
+	/*display: flex;*/
+}
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;
+}
+/*.feature_article_row {{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column;
+}*/
+
+#header_container {
+	background-image: url('../img/Header_backdrop_2.jpg'); 
+	background-size: auto; 
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+	background-position: center; 
+	webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
+#footer {
+	padding:20px 0px; background-image: url('../img/Footer_backdrop.jpg'); 
+	background-size:  cover; 
+	background-size: auto; 
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+	background-position: center;
+	webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%;
 }
